@@ -16,12 +16,12 @@ const Navbar = () => {
 
     const handleLoginClick = () => {
         setShowLoginModel(true);
-        setShowSignUpModel(false); // Ensure only one Model is visible at a time
+        setShowSignUpModel(false);
     };
 
     const handleSignUpClick = () => {
         setShowSignUpModel(true);
-        setShowLoginModel(false); // Ensure only one Model is visible at a time
+        setShowLoginModel(false);
     };
 
     const handleCloseLoginModel = () => setShowLoginModel(false);
