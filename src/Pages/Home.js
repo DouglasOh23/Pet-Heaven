@@ -1,6 +1,9 @@
 import React from 'react';
 import './Home.css';
 import { Link } from 'react-router-dom';
+import pawoutline from '../Images/paw-outline.svg';
+import contructoutline from "../Images/construct-outline.svg";
+import heartcircleoutline from "../Images/heart-circle-outline.svg";
 
 const Home = () => (
     <div className="home">
@@ -16,7 +19,7 @@ const Home = () => (
                     <Link to="/Adoption" className="home-link">
                         <div className="home-button-container">
                             <button className="home-button">
-                                <img src="/images/paw-outline.svg" alt="Adoption Icon" className="home-icon" />
+                                <img src={pawoutline} alt="Adoption Icon" className="home-icon" />
                                 Adopt
                             </button>
                             <p className="home-description">We have saved 1000 lost animals since the founding of our organization.</p>
@@ -27,7 +30,7 @@ const Home = () => (
                     <Link to="/Support" className="home-link">
                         <div className="home-button-container">
                             <button className="home-button">
-                                <img src="/images/construct-outline.svg" alt="Support Icon" className="home-icon" />
+                                <img src={contructoutline} alt="Support Icon" className="home-icon" />
                                 Support
                             </button>
                             <p className="home-description">Your support helps us continue our mission.</p>
@@ -38,7 +41,7 @@ const Home = () => (
                     <Link to="/Release" className="home-link">
                         <div className="home-button-container">
                             <button className="home-button">
-                                <img src="/images/heart-circle-outline.svg" alt="Release Icon" className="home-icon" />
+                                <img src={heartcircleoutline} alt="Release Icon" className="home-icon" />
                                 Release
                             </button>
                             <p className="home-description">Help us give pets a new beginning.</p>
