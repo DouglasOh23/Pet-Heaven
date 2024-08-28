@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 20px 20px;
+}
+
+.HomeLogo {
+    height: 90px;
+    width: 100px;
+}
+
+.NavContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.NavLinks {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 0 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.Icons {
+    height: 20px;
+    width: 20px;
+}
+
+.ButtonGroup {
+    display: flex;
+    gap: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+button {
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+
+button img {
+    margin-left: 8px;
+}

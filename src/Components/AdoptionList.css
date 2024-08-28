@@ -1,0 +1,38 @@
+.AdoptList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+.AdoptList li {
+    position: relative;
+    display: flex;
+  }
+  
+.AdoptList img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+.AdoptList figcaption {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 96%;
+    height: 95%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    display: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+  
+.AdoptList li:hover figcaption {
+    display: block;
+  }
+  
