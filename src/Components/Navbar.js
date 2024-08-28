@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 import Model from './Model';
 import LoginForm from './LoginForm';
 import SignUpForm from "./SignUpForm";
-import pawoutline from "../Images/paw-outline.svg"
-import contructoutline from "../Images/contruct-outline.svg"
-import heartcircleoutline from "../Images/heart-circle-outline.svg"
-import loginoutline from "../Images/log-in-outline.svg"
-import PetHeavenLogo from "../Images/PetHeavenLogo.png"
+import pawoutline from '../Images/paw-outline.svg';
+import contructoutline from "../Images/construct-outline.svg";
+import heartcircleoutline from "../Images/heart-circle-outline.svg";
+import loginoutline from "../Images/log-in-outline.svg";
+import PetHeavenLogo from "../Images/PetHeavenLogo.png";
 
 const Navbar = () => {
     const [showLoginModel, setShowLoginModel] = useState(false);
