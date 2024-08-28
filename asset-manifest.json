@@ -1,21 +1,26 @@
 {
   "files": {
     "main.css": "/Pet-Heaven/static/css/main.9bb03da2.css",
-    "main.js": "/Pet-Heaven/static/js/main.1b680449.js",
+    "main.js": "/Pet-Heaven/static/js/main.f09fc996.js",
     "static/media/AhGirl.jpg": "/Pet-Heaven/static/media/AhGirl.547216ccc2c8a6e8a3b0.jpg",
     "static/media/Ace.jpg": "/Pet-Heaven/static/media/Ace.eb272a5c24b9c4da4724.jpg",
     "static/media/Cherry.jpg": "/Pet-Heaven/static/media/Cherry.b0d1939d6c92516650a2.jpg",
     "static/media/Argo.jpg": "/Pet-Heaven/static/media/Argo.7a896ae0fa3f7eef9962.jpg",
     "static/media/Avery.jpg": "/Pet-Heaven/static/media/Avery.42f38af15d4aa47765e8.jpg",
     "static/media/Aria.jpg": "/Pet-Heaven/static/media/Aria.19e2edec194a4727632f.jpg",
+    "static/media/PetHeavenLogo.png": "/Pet-Heaven/static/media/PetHeavenLogo.b23ea9b8e99e16bd31ec.png",
     "static/media/dogs.jpg": "/Pet-Heaven/static/media/dogs.9582f5f3d365f06861eb.jpg",
     "static/media/mouse.jpg": "/Pet-Heaven/static/media/mouse.9224e829ed1996d9141f.jpg",
+    "static/media/construct-outline.svg": "/Pet-Heaven/static/media/construct-outline.cea23043d47b31f20c63fd6f270700e1.svg",
+    "static/media/paw-outline.svg": "/Pet-Heaven/static/media/paw-outline.fb6543686db01dda4857350e7b0cc614.svg",
     "index.html": "/Pet-Heaven/index.html",
+    "static/media/heart-circle-outline.svg": "/Pet-Heaven/static/media/heart-circle-outline.a0932c16e7db76bc848c5e262675afd8.svg",
+    "static/media/log-in-outline.svg": "/Pet-Heaven/static/media/log-in-outline.4f86d85284595b84ff68d009c0f300bb.svg",
     "main.9bb03da2.css.map": "/Pet-Heaven/static/css/main.9bb03da2.css.map",
-    "main.1b680449.js.map": "/Pet-Heaven/static/js/main.1b680449.js.map"
+    "main.f09fc996.js.map": "/Pet-Heaven/static/js/main.f09fc996.js.map"
   },
   "entrypoints": [
     "static/css/main.9bb03da2.css",
-    "static/js/main.1b680449.js"
+    "static/js/main.f09fc996.js"
   ]
 }
