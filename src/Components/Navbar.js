@@ -4,6 +4,11 @@ import { Link } from 'react-router-dom';
 import Model from './Model';
 import LoginForm from './LoginForm';
 import SignUpForm from "./SignUpForm";
+import pawoutline from "../Images/paw-outline.svg"
+import contructoutline from "../Images/contruct-outline.svg"
+import heartcircleoutline from "../Images/heart-circle-outline.svg"
+import loginoutline from "../Images/log-in-outline.svg"
+import PetHeavenLogo from "../Images/PetHeavenLogo.png"
 
 const Navbar = () => {
     const [showLoginModel, setShowLoginModel] = useState(false);
@@ -26,17 +31,17 @@ const Navbar = () => {
         <header>
             <nav>
                 <div className="NavContainer">
-                <Link to="/"><img className="HomeLogo" src="/Images/PetHeavenLogo.png" alt="Pet Heaven Logo"/></Link>
+                <Link to="/"><img className="HomeLogo" src={PetHeavenLogo} alt="Pet Heaven Logo"/></Link>
                     <div className="NavLinks">
                         <ul>
-                            <li><Link to="/Adoption"><img src="/Images/paw-outline.svg" alt="Adoption Icon" class="Icons"/>Adoption</Link></li>
-                            <li><Link to="/Support"><img src="/Images/construct-outline.svg" alt="Support Icon" class="Icons"/>Support</Link></li>
-                            <li><Link to="/Release"><img src="/Images/heart-circle-outline.svg" alt="Release Icon" class="Icons"/>Release Pet</Link></li>
+                            <li><Link to="/Adoption"><img src={pawoutline} alt="Adoption Icon" class="Icons"/>Adoption</Link></li>
+                            <li><Link to="/Support"><img src={contructoutline} alt="Support Icon" class="Icons"/>Support</Link></li>
+                            <li><Link to="/Release"><img src={heartcircleoutline} alt="Release Icon" class="Icons"/>Release Pet</Link></li>
                         </ul>
                     </div>
                     <div className="ButtonGroup">
                         <button onClick={handleLoginClick}>Login</button>
-                        <button onClick={handleSignUpClick}>Sign Up<img src="/images/log-in-outline.svg" alt="Pet Heaven Logo" class="Icons"/></button>
+                        <button onClick={handleSignUpClick}>Sign Up<img src={loginoutline} alt="Pet Heaven Logo" class="Icons"/></button>
                     </div>
                 </div>
             </nav>
