@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Pet-Heaven/static/css/main.9bb03da2.css",
+    "main.js": "/Pet-Heaven/static/js/main.3fa69303.js",
+    "static/media/AhGirl.jpg": "/Pet-Heaven/static/media/AhGirl.547216ccc2c8a6e8a3b0.jpg",
+    "static/media/Ace.jpg": "/Pet-Heaven/static/media/Ace.eb272a5c24b9c4da4724.jpg",
+    "static/media/Cherry.jpg": "/Pet-Heaven/static/media/Cherry.b0d1939d6c92516650a2.jpg",
+    "static/media/Argo.jpg": "/Pet-Heaven/static/media/Argo.7a896ae0fa3f7eef9962.jpg",
+    "static/media/Avery.jpg": "/Pet-Heaven/static/media/Avery.42f38af15d4aa47765e8.jpg",
+    "static/media/Aria.jpg": "/Pet-Heaven/static/media/Aria.19e2edec194a4727632f.jpg",
+    "static/media/dogs.jpg": "/Pet-Heaven/static/media/dogs.9582f5f3d365f06861eb.jpg",
+    "static/media/mouse.jpg": "/Pet-Heaven/static/media/mouse.9224e829ed1996d9141f.jpg",
+    "index.html": "/Pet-Heaven/index.html",
+    "main.9bb03da2.css.map": "/Pet-Heaven/static/css/main.9bb03da2.css.map",
+    "main.3fa69303.js.map": "/Pet-Heaven/static/js/main.3fa69303.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bb03da2.css",
+    "static/js/main.3fa69303.js"
+  ]
+}
